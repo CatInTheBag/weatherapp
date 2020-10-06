@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Weather Application</string>
+    <string name="current_location">Current city</string>
+    <string name="temp">t°</string>
+</resources>
