@@ -40,14 +40,14 @@ public class MainActivity extends AppCompatActivity {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         initViews();
         initOnClick();
-        initEditBox();
+        /*initEditBox();*/
 
         //TODO :
         presenter = new MainPresenter(this);
         presenter.getWeatherForCurrentLocation();
     }
 
-    private void initEditBox() {
+/*    private void initEditBox() {
 
         editText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
@@ -70,8 +70,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
-    }
+    }*/
 
 
 
