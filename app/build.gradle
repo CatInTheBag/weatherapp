@@ -25,6 +25,19 @@ android {
         enabled = true
     }
 
+    flavorDimensions "default"
+    productFlavors {
+        omni {
+            /*applicationId "omni.co.uk"
+            versionCode 1
+            versionName "1.0.0"*/
+        }
+
+        dyce {
+
+        }
+
+    }
 }
 
 dependencies {

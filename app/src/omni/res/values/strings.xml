@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Vasi Rulez</string>
+    <string name="current_location">Gabrovo</string>
+    <string name="temp">t°</string>
+</resources>
